@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #238BF8;
+}
+
+#title {
+    width: 100%;
+    font-family: 'Fredoka One', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    color: #FAB201;
+    -webkit-text-stroke: 8px white;
+    margin-top: 100px;
+}
+
+#flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+#grid-box {    
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-column-gap: 20px ;
+    grid-row-gap: 20px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 20px;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Fredoka One', sans-serif;
+    margin-top: 100px;
+}
