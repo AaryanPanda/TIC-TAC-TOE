@@ -31,8 +31,8 @@ body {
 #grid-box {    
     display: grid;
     grid-template-columns: repeat(3, 100px);
-    grid-column-gap: 20px ;
-    grid-row-gap: 20px;
+    grid-column-gap: 10px ;
+    grid-row-gap: 10px;
 }
 
 .box {
@@ -40,7 +40,14 @@ body {
     width: 100px;
     background-color: white;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FAB201;
+    font-size: 40px;
+    font-family: 'Fredoka One', sans-serif;
 }
+
 #footer {
     display: flex;
     justify-content: center;
@@ -50,3 +57,37 @@ body {
     font-family: 'Fredoka One', sans-serif;
     margin-top: 70px;
 }
+
+#popup {
+    display: none; 
+    flex-direction: column;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);     
+}
+#result{
+    font-size: 50px;
+    color: white;
+    font-family: 'Fredoka One', sans-serif;
+}
+
+#button{
+    font-family: 'Fredoka One', sans-serif;
+    padding: 10px;
+    margin-top: 30px;
+    background-color:#fa9e09;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    opacity: 0.7;
+    border-radius: 5px;
+    z-index: 2;
+}
+
